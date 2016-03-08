@@ -1,0 +1,5 @@
+require(slidify)
+setwd("D:/data/Project/urban/interactive")
+#author('interactive')
+slidify('index.Rmd')
+ browseURL('index.html')
